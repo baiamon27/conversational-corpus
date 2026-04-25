@@ -1,0 +1,2252 @@
+[
+  {
+    "conversation_id": "conv_0035",
+    "domain": "customer_support",
+    "num_turns": 4,
+    "turns": [
+      {
+        "turn_id": 0,
+        "speaker": "user",
+        "text": "Hi, I need help with my order",
+        "timestamp": "2026-04-23T20:49:31.312521",
+        "cleaned_text": "hi i need help with my order",
+        "tokens": [
+          "hi",
+          "i",
+          "need",
+          "help",
+          "with",
+          "my",
+          "order"
+        ],
+        "filtered_tokens": [
+          "hi",
+          "need",
+          "help",
+          "order"
+        ],
+        "stats": {
+          "word_count": 7,
+          "char_count": 29,
+          "unique_words": 7
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "greeting",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "greeting",
+          "slots": [
+            {
+              "slot_type": "order",
+              "value": "reference"
+            }
+          ]
+        }
+      },
+      {
+        "turn_id": 1,
+        "speaker": "bot",
+        "text": "Let me check your order status",
+        "timestamp": "2026-04-23T20:49:31.312522",
+        "cleaned_text": "let me check your order status",
+        "tokens": [
+          "let",
+          "me",
+          "check",
+          "your",
+          "order",
+          "status"
+        ],
+        "filtered_tokens": [
+          "let",
+          "check",
+          "order",
+          "status"
+        ],
+        "stats": {
+          "word_count": 6,
+          "char_count": 30,
+          "unique_words": 6
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "statement",
+          "slots": [
+            {
+              "slot_type": "order",
+              "value": "reference"
+            }
+          ]
+        }
+      },
+      {
+        "turn_id": 2,
+        "speaker": "user",
+        "text": "Hello, can you assist me?",
+        "timestamp": "2026-04-23T20:49:31.312524",
+        "cleaned_text": "hello can you assist me",
+        "tokens": [
+          "hello",
+          "can",
+          "you",
+          "assist",
+          "me"
+        ],
+        "filtered_tokens": [
+          "hello",
+          "can",
+          "assist"
+        ],
+        "stats": {
+          "word_count": 5,
+          "char_count": 25,
+          "unique_words": 5
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "greeting",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "question",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 3,
+        "speaker": "bot",
+        "text": "I apologize for the inconvenience",
+        "timestamp": "2026-04-23T20:49:31.312525",
+        "cleaned_text": "i apologize for the inconvenience",
+        "tokens": [
+          "i",
+          "apologize",
+          "for",
+          "the",
+          "inconvenience"
+        ],
+        "filtered_tokens": [
+          "apologize",
+          "inconvenience"
+        ],
+        "stats": {
+          "word_count": 5,
+          "char_count": 33,
+          "unique_words": 5
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      }
+    ],
+    "metadata": {
+      "created_date": "2026-04-23T20:49:31.312527",
+      "source": "synthetic",
+      "version": "1.0"
+    },
+    "statistics": {
+      "total_turns": 4,
+      "total_words": 23,
+      "unique_words": 12
+    },
+    "annotation_stats": {
+      "total_annotations": 4,
+      "annotator_version": "1.0"
+    }
+  },
+  {
+    "conversation_id": "conv_0029",
+    "domain": "booking",
+    "num_turns": 9,
+    "turns": [
+      {
+        "turn_id": 0,
+        "speaker": "user",
+        "text": "Thank you for your help",
+        "timestamp": "2026-04-23T20:49:31.312425",
+        "cleaned_text": "thank you for your help",
+        "tokens": [
+          "thank",
+          "you",
+          "for",
+          "your",
+          "help"
+        ],
+        "filtered_tokens": [
+          "thank",
+          "help"
+        ],
+        "stats": {
+          "word_count": 5,
+          "char_count": 23,
+          "unique_words": 5
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "help",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 1,
+        "speaker": "bot",
+        "text": "Your booking is confirmed",
+        "timestamp": "2026-04-23T20:49:31.312426",
+        "cleaned_text": "your booking is confirmed",
+        "tokens": [
+          "your",
+          "booking",
+          "is",
+          "confirmed"
+        ],
+        "filtered_tokens": [
+          "booking",
+          "confirmed"
+        ],
+        "stats": {
+          "word_count": 4,
+          "char_count": 25,
+          "unique_words": 4
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "booking",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 2,
+        "speaker": "user",
+        "text": "Is breakfast included?",
+        "timestamp": "2026-04-23T20:49:31.312428",
+        "cleaned_text": "is breakfast included",
+        "tokens": [
+          "is",
+          "breakfast",
+          "included"
+        ],
+        "filtered_tokens": [
+          "breakfast",
+          "included"
+        ],
+        "stats": {
+          "word_count": 3,
+          "char_count": 22,
+          "unique_words": 3
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "question",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 3,
+        "speaker": "bot",
+        "text": "Let me show you our options",
+        "timestamp": "2026-04-23T20:49:31.312429",
+        "cleaned_text": "let me show you our options",
+        "tokens": [
+          "let",
+          "me",
+          "show",
+          "you",
+          "our",
+          "options"
+        ],
+        "filtered_tokens": [
+          "let",
+          "show",
+          "options"
+        ],
+        "stats": {
+          "word_count": 6,
+          "char_count": 27,
+          "unique_words": 6
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 4,
+        "speaker": "user",
+        "text": "I want to book a room",
+        "timestamp": "2026-04-23T20:49:31.312431",
+        "cleaned_text": "i want to book a room",
+        "tokens": [
+          "i",
+          "want",
+          "to",
+          "book",
+          "a",
+          "room"
+        ],
+        "filtered_tokens": [
+          "want",
+          "book",
+          "room"
+        ],
+        "stats": {
+          "word_count": 6,
+          "char_count": 21,
+          "unique_words": 6
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "booking",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": [
+            {
+              "slot_type": "accommodation",
+              "value": "room"
+            }
+          ]
+        }
+      },
+      {
+        "turn_id": 5,
+        "speaker": "bot",
+        "text": "Your booking is confirmed",
+        "timestamp": "2026-04-23T20:49:31.312432",
+        "cleaned_text": "your booking is confirmed",
+        "tokens": [
+          "your",
+          "booking",
+          "is",
+          "confirmed"
+        ],
+        "filtered_tokens": [
+          "booking",
+          "confirmed"
+        ],
+        "stats": {
+          "word_count": 4,
+          "char_count": 25,
+          "unique_words": 4
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "booking",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 6,
+        "speaker": "user",
+        "text": "Do you have availability?",
+        "timestamp": "2026-04-23T20:49:31.312433",
+        "cleaned_text": "do you have availability",
+        "tokens": [
+          "do",
+          "you",
+          "have",
+          "availability"
+        ],
+        "filtered_tokens": [
+          "do",
+          "have",
+          "availability"
+        ],
+        "stats": {
+          "word_count": 4,
+          "char_count": 25,
+          "unique_words": 4
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "question",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 7,
+        "speaker": "bot",
+        "text": "Let me show you our options",
+        "timestamp": "2026-04-23T20:49:31.312435",
+        "cleaned_text": "let me show you our options",
+        "tokens": [
+          "let",
+          "me",
+          "show",
+          "you",
+          "our",
+          "options"
+        ],
+        "filtered_tokens": [
+          "let",
+          "show",
+          "options"
+        ],
+        "stats": {
+          "word_count": 6,
+          "char_count": 27,
+          "unique_words": 6
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 8,
+        "speaker": "user",
+        "text": "I want to book a room",
+        "timestamp": "2026-04-23T20:49:31.312436",
+        "cleaned_text": "i want to book a room",
+        "tokens": [
+          "i",
+          "want",
+          "to",
+          "book",
+          "a",
+          "room"
+        ],
+        "filtered_tokens": [
+          "want",
+          "book",
+          "room"
+        ],
+        "stats": {
+          "word_count": 6,
+          "char_count": 21,
+          "unique_words": 6
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "booking",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": [
+            {
+              "slot_type": "accommodation",
+              "value": "room"
+            }
+          ]
+        }
+      }
+    ],
+    "metadata": {
+      "created_date": "2026-04-23T20:49:31.312437",
+      "source": "synthetic",
+      "version": "1.0"
+    },
+    "statistics": {
+      "total_turns": 9,
+      "total_words": 44,
+      "unique_words": 15
+    },
+    "annotation_stats": {
+      "total_annotations": 9,
+      "annotator_version": "1.0"
+    }
+  },
+  {
+    "conversation_id": "conv_0048",
+    "domain": "booking",
+    "num_turns": 9,
+    "turns": [
+      {
+        "turn_id": 0,
+        "speaker": "user",
+        "text": "I want to book a room",
+        "timestamp": "2026-04-23T20:49:31.312731",
+        "cleaned_text": "i want to book a room",
+        "tokens": [
+          "i",
+          "want",
+          "to",
+          "book",
+          "a",
+          "room"
+        ],
+        "filtered_tokens": [
+          "want",
+          "book",
+          "room"
+        ],
+        "stats": {
+          "word_count": 6,
+          "char_count": 21,
+          "unique_words": 6
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "booking",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": [
+            {
+              "slot_type": "accommodation",
+              "value": "room"
+            }
+          ]
+        }
+      },
+      {
+        "turn_id": 1,
+        "speaker": "bot",
+        "text": "Your booking is confirmed",
+        "timestamp": "2026-04-23T20:49:31.312732",
+        "cleaned_text": "your booking is confirmed",
+        "tokens": [
+          "your",
+          "booking",
+          "is",
+          "confirmed"
+        ],
+        "filtered_tokens": [
+          "booking",
+          "confirmed"
+        ],
+        "stats": {
+          "word_count": 4,
+          "char_count": 25,
+          "unique_words": 4
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "booking",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 2,
+        "speaker": "user",
+        "text": "Is breakfast included?",
+        "timestamp": "2026-04-23T20:49:31.312734",
+        "cleaned_text": "is breakfast included",
+        "tokens": [
+          "is",
+          "breakfast",
+          "included"
+        ],
+        "filtered_tokens": [
+          "breakfast",
+          "included"
+        ],
+        "stats": {
+          "word_count": 3,
+          "char_count": 22,
+          "unique_words": 3
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "question",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 3,
+        "speaker": "bot",
+        "text": "Your booking is confirmed",
+        "timestamp": "2026-04-23T20:49:31.312735",
+        "cleaned_text": "your booking is confirmed",
+        "tokens": [
+          "your",
+          "booking",
+          "is",
+          "confirmed"
+        ],
+        "filtered_tokens": [
+          "booking",
+          "confirmed"
+        ],
+        "stats": {
+          "word_count": 4,
+          "char_count": 25,
+          "unique_words": 4
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "booking",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 4,
+        "speaker": "user",
+        "text": "Is breakfast included?",
+        "timestamp": "2026-04-23T20:49:31.312737",
+        "cleaned_text": "is breakfast included",
+        "tokens": [
+          "is",
+          "breakfast",
+          "included"
+        ],
+        "filtered_tokens": [
+          "breakfast",
+          "included"
+        ],
+        "stats": {
+          "word_count": 3,
+          "char_count": 22,
+          "unique_words": 3
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "question",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 5,
+        "speaker": "bot",
+        "text": "Your booking is confirmed",
+        "timestamp": "2026-04-23T20:49:31.312738",
+        "cleaned_text": "your booking is confirmed",
+        "tokens": [
+          "your",
+          "booking",
+          "is",
+          "confirmed"
+        ],
+        "filtered_tokens": [
+          "booking",
+          "confirmed"
+        ],
+        "stats": {
+          "word_count": 4,
+          "char_count": 25,
+          "unique_words": 4
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "booking",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 6,
+        "speaker": "user",
+        "text": "Thank you for your help",
+        "timestamp": "2026-04-23T20:49:31.312740",
+        "cleaned_text": "thank you for your help",
+        "tokens": [
+          "thank",
+          "you",
+          "for",
+          "your",
+          "help"
+        ],
+        "filtered_tokens": [
+          "thank",
+          "help"
+        ],
+        "stats": {
+          "word_count": 5,
+          "char_count": 23,
+          "unique_words": 5
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "help",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 7,
+        "speaker": "bot",
+        "text": "Your booking is confirmed",
+        "timestamp": "2026-04-23T20:49:31.312741",
+        "cleaned_text": "your booking is confirmed",
+        "tokens": [
+          "your",
+          "booking",
+          "is",
+          "confirmed"
+        ],
+        "filtered_tokens": [
+          "booking",
+          "confirmed"
+        ],
+        "stats": {
+          "word_count": 4,
+          "char_count": 25,
+          "unique_words": 4
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "booking",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 8,
+        "speaker": "user",
+        "text": "Goodbye",
+        "timestamp": "2026-04-23T20:49:31.312742",
+        "cleaned_text": "goodbye",
+        "tokens": [
+          "goodbye"
+        ],
+        "filtered_tokens": [
+          "goodbye"
+        ],
+        "stats": {
+          "word_count": 1,
+          "char_count": 7,
+          "unique_words": 1
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "farewell",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "farewell",
+          "slots": []
+        }
+      }
+    ],
+    "metadata": {
+      "created_date": "2026-04-23T20:49:31.312743",
+      "source": "synthetic",
+      "version": "1.0"
+    },
+    "statistics": {
+      "total_turns": 9,
+      "total_words": 34,
+      "unique_words": 10
+    },
+    "annotation_stats": {
+      "total_annotations": 9,
+      "annotator_version": "1.0"
+    }
+  },
+  {
+    "conversation_id": "conv_0004",
+    "domain": "booking",
+    "num_turns": 10,
+    "turns": [
+      {
+        "turn_id": 0,
+        "speaker": "user",
+        "text": "What are your prices?",
+        "timestamp": "2026-04-23T20:49:31.312081",
+        "cleaned_text": "what are your prices",
+        "tokens": [
+          "what",
+          "are",
+          "your",
+          "prices"
+        ],
+        "filtered_tokens": [
+          "what",
+          "prices"
+        ],
+        "stats": {
+          "word_count": 4,
+          "char_count": 21,
+          "unique_words": 4
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "inquiry",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "question",
+          "slots": [
+            {
+              "slot_type": "price",
+              "value": "inquiry"
+            }
+          ]
+        }
+      },
+      {
+        "turn_id": 1,
+        "speaker": "bot",
+        "text": "Your booking is confirmed",
+        "timestamp": "2026-04-23T20:49:31.312083",
+        "cleaned_text": "your booking is confirmed",
+        "tokens": [
+          "your",
+          "booking",
+          "is",
+          "confirmed"
+        ],
+        "filtered_tokens": [
+          "booking",
+          "confirmed"
+        ],
+        "stats": {
+          "word_count": 4,
+          "char_count": 25,
+          "unique_words": 4
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "booking",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 2,
+        "speaker": "user",
+        "text": "Thank you for your help",
+        "timestamp": "2026-04-23T20:49:31.312091",
+        "cleaned_text": "thank you for your help",
+        "tokens": [
+          "thank",
+          "you",
+          "for",
+          "your",
+          "help"
+        ],
+        "filtered_tokens": [
+          "thank",
+          "help"
+        ],
+        "stats": {
+          "word_count": 5,
+          "char_count": 23,
+          "unique_words": 5
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "help",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 3,
+        "speaker": "bot",
+        "text": "What dates are you looking for?",
+        "timestamp": "2026-04-23T20:49:31.312093",
+        "cleaned_text": "what dates are you looking for",
+        "tokens": [
+          "what",
+          "dates",
+          "are",
+          "you",
+          "looking",
+          "for"
+        ],
+        "filtered_tokens": [
+          "what",
+          "dates",
+          "looking"
+        ],
+        "stats": {
+          "word_count": 6,
+          "char_count": 31,
+          "unique_words": 6
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "inquiry",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "question",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 4,
+        "speaker": "user",
+        "text": "Do you have availability?",
+        "timestamp": "2026-04-23T20:49:31.312094",
+        "cleaned_text": "do you have availability",
+        "tokens": [
+          "do",
+          "you",
+          "have",
+          "availability"
+        ],
+        "filtered_tokens": [
+          "do",
+          "have",
+          "availability"
+        ],
+        "stats": {
+          "word_count": 4,
+          "char_count": 25,
+          "unique_words": 4
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "question",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 5,
+        "speaker": "bot",
+        "text": "What dates are you looking for?",
+        "timestamp": "2026-04-23T20:49:31.312096",
+        "cleaned_text": "what dates are you looking for",
+        "tokens": [
+          "what",
+          "dates",
+          "are",
+          "you",
+          "looking",
+          "for"
+        ],
+        "filtered_tokens": [
+          "what",
+          "dates",
+          "looking"
+        ],
+        "stats": {
+          "word_count": 6,
+          "char_count": 31,
+          "unique_words": 6
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "inquiry",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "question",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 6,
+        "speaker": "user",
+        "text": "Do you have availability?",
+        "timestamp": "2026-04-23T20:49:31.312097",
+        "cleaned_text": "do you have availability",
+        "tokens": [
+          "do",
+          "you",
+          "have",
+          "availability"
+        ],
+        "filtered_tokens": [
+          "do",
+          "have",
+          "availability"
+        ],
+        "stats": {
+          "word_count": 4,
+          "char_count": 25,
+          "unique_words": 4
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "question",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 7,
+        "speaker": "bot",
+        "text": "Let me show you our options",
+        "timestamp": "2026-04-23T20:49:31.312099",
+        "cleaned_text": "let me show you our options",
+        "tokens": [
+          "let",
+          "me",
+          "show",
+          "you",
+          "our",
+          "options"
+        ],
+        "filtered_tokens": [
+          "let",
+          "show",
+          "options"
+        ],
+        "stats": {
+          "word_count": 6,
+          "char_count": 27,
+          "unique_words": 6
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 8,
+        "speaker": "user",
+        "text": "I want to book a room",
+        "timestamp": "2026-04-23T20:49:31.312100",
+        "cleaned_text": "i want to book a room",
+        "tokens": [
+          "i",
+          "want",
+          "to",
+          "book",
+          "a",
+          "room"
+        ],
+        "filtered_tokens": [
+          "want",
+          "book",
+          "room"
+        ],
+        "stats": {
+          "word_count": 6,
+          "char_count": 21,
+          "unique_words": 6
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "booking",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": [
+            {
+              "slot_type": "accommodation",
+              "value": "room"
+            }
+          ]
+        }
+      },
+      {
+        "turn_id": 9,
+        "speaker": "bot",
+        "text": "Let me show you our options",
+        "timestamp": "2026-04-23T20:49:31.312102",
+        "cleaned_text": "let me show you our options",
+        "tokens": [
+          "let",
+          "me",
+          "show",
+          "you",
+          "our",
+          "options"
+        ],
+        "filtered_tokens": [
+          "let",
+          "show",
+          "options"
+        ],
+        "stats": {
+          "word_count": 6,
+          "char_count": 27,
+          "unique_words": 6
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      }
+    ],
+    "metadata": {
+      "created_date": "2026-04-23T20:49:31.312103",
+      "source": "synthetic",
+      "version": "1.0"
+    },
+    "statistics": {
+      "total_turns": 10,
+      "total_words": 51,
+      "unique_words": 17
+    },
+    "annotation_stats": {
+      "total_annotations": 10,
+      "annotator_version": "1.0"
+    }
+  },
+  {
+    "conversation_id": "conv_0042",
+    "domain": "booking",
+    "num_turns": 7,
+    "turns": [
+      {
+        "turn_id": 0,
+        "speaker": "user",
+        "text": "Goodbye",
+        "timestamp": "2026-04-23T20:49:31.312635",
+        "cleaned_text": "goodbye",
+        "tokens": [
+          "goodbye"
+        ],
+        "filtered_tokens": [
+          "goodbye"
+        ],
+        "stats": {
+          "word_count": 1,
+          "char_count": 7,
+          "unique_words": 1
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "farewell",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "farewell",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 1,
+        "speaker": "bot",
+        "text": "I can help you book that",
+        "timestamp": "2026-04-23T20:49:31.312636",
+        "cleaned_text": "i can help you book that",
+        "tokens": [
+          "i",
+          "can",
+          "help",
+          "you",
+          "book",
+          "that"
+        ],
+        "filtered_tokens": [
+          "can",
+          "help",
+          "book"
+        ],
+        "stats": {
+          "word_count": 6,
+          "char_count": 24,
+          "unique_words": 6
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "help",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 2,
+        "speaker": "user",
+        "text": "I want to book a room",
+        "timestamp": "2026-04-23T20:49:31.312639",
+        "cleaned_text": "i want to book a room",
+        "tokens": [
+          "i",
+          "want",
+          "to",
+          "book",
+          "a",
+          "room"
+        ],
+        "filtered_tokens": [
+          "want",
+          "book",
+          "room"
+        ],
+        "stats": {
+          "word_count": 6,
+          "char_count": 21,
+          "unique_words": 6
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "booking",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": [
+            {
+              "slot_type": "accommodation",
+              "value": "room"
+            }
+          ]
+        }
+      },
+      {
+        "turn_id": 3,
+        "speaker": "bot",
+        "text": "Your booking is confirmed",
+        "timestamp": "2026-04-23T20:49:31.312640",
+        "cleaned_text": "your booking is confirmed",
+        "tokens": [
+          "your",
+          "booking",
+          "is",
+          "confirmed"
+        ],
+        "filtered_tokens": [
+          "booking",
+          "confirmed"
+        ],
+        "stats": {
+          "word_count": 4,
+          "char_count": 25,
+          "unique_words": 4
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "booking",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 4,
+        "speaker": "user",
+        "text": "What are your prices?",
+        "timestamp": "2026-04-23T20:49:31.312641",
+        "cleaned_text": "what are your prices",
+        "tokens": [
+          "what",
+          "are",
+          "your",
+          "prices"
+        ],
+        "filtered_tokens": [
+          "what",
+          "prices"
+        ],
+        "stats": {
+          "word_count": 4,
+          "char_count": 21,
+          "unique_words": 4
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "inquiry",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "question",
+          "slots": [
+            {
+              "slot_type": "price",
+              "value": "inquiry"
+            }
+          ]
+        }
+      },
+      {
+        "turn_id": 5,
+        "speaker": "bot",
+        "text": "Let me check availability",
+        "timestamp": "2026-04-23T20:49:31.312643",
+        "cleaned_text": "let me check availability",
+        "tokens": [
+          "let",
+          "me",
+          "check",
+          "availability"
+        ],
+        "filtered_tokens": [
+          "let",
+          "check",
+          "availability"
+        ],
+        "stats": {
+          "word_count": 4,
+          "char_count": 25,
+          "unique_words": 4
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 6,
+        "speaker": "user",
+        "text": "Is breakfast included?",
+        "timestamp": "2026-04-23T20:49:31.312644",
+        "cleaned_text": "is breakfast included",
+        "tokens": [
+          "is",
+          "breakfast",
+          "included"
+        ],
+        "filtered_tokens": [
+          "breakfast",
+          "included"
+        ],
+        "stats": {
+          "word_count": 3,
+          "char_count": 22,
+          "unique_words": 3
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "question",
+          "slots": []
+        }
+      }
+    ],
+    "metadata": {
+      "created_date": "2026-04-23T20:49:31.312645",
+      "source": "synthetic",
+      "version": "1.0"
+    },
+    "statistics": {
+      "total_turns": 7,
+      "total_words": 28,
+      "unique_words": 15
+    },
+    "annotation_stats": {
+      "total_annotations": 7,
+      "annotator_version": "1.0"
+    }
+  },
+  {
+    "conversation_id": "conv_0003",
+    "domain": "customer_support",
+    "num_turns": 4,
+    "turns": [
+      {
+        "turn_id": 0,
+        "speaker": "user",
+        "text": "Goodbye",
+        "timestamp": "2026-04-23T20:49:31.312073",
+        "cleaned_text": "goodbye",
+        "tokens": [
+          "goodbye"
+        ],
+        "filtered_tokens": [
+          "goodbye"
+        ],
+        "stats": {
+          "word_count": 1,
+          "char_count": 7,
+          "unique_words": 1
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "farewell",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "farewell",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 1,
+        "speaker": "bot",
+        "text": "I'd be happy to help with that",
+        "timestamp": "2026-04-23T20:49:31.312075",
+        "cleaned_text": "id be happy to help with that",
+        "tokens": [
+          "id",
+          "be",
+          "happy",
+          "to",
+          "help",
+          "with",
+          "that"
+        ],
+        "filtered_tokens": [
+          "id",
+          "happy",
+          "help"
+        ],
+        "stats": {
+          "word_count": 7,
+          "char_count": 30,
+          "unique_words": 7
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "help",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 2,
+        "speaker": "user",
+        "text": "Goodbye",
+        "timestamp": "2026-04-23T20:49:31.312076",
+        "cleaned_text": "goodbye",
+        "tokens": [
+          "goodbye"
+        ],
+        "filtered_tokens": [
+          "goodbye"
+        ],
+        "stats": {
+          "word_count": 1,
+          "char_count": 7,
+          "unique_words": 1
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "farewell",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "farewell",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 3,
+        "speaker": "bot",
+        "text": "Thank you for contacting support",
+        "timestamp": "2026-04-23T20:49:31.312078",
+        "cleaned_text": "thank you for contacting support",
+        "tokens": [
+          "thank",
+          "you",
+          "for",
+          "contacting",
+          "support"
+        ],
+        "filtered_tokens": [
+          "thank",
+          "contacting",
+          "support"
+        ],
+        "stats": {
+          "word_count": 5,
+          "char_count": 32,
+          "unique_words": 5
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "help",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      }
+    ],
+    "metadata": {
+      "created_date": "2026-04-23T20:49:31.312079",
+      "source": "synthetic",
+      "version": "1.0"
+    },
+    "statistics": {
+      "total_turns": 4,
+      "total_words": 14,
+      "unique_words": 7
+    },
+    "annotation_stats": {
+      "total_annotations": 4,
+      "annotator_version": "1.0"
+    }
+  },
+  {
+    "conversation_id": "conv_0036",
+    "domain": "customer_support",
+    "num_turns": 9,
+    "turns": [
+      {
+        "turn_id": 0,
+        "speaker": "user",
+        "text": "Thanks for your help",
+        "timestamp": "2026-04-23T20:49:31.312530",
+        "cleaned_text": "thanks for your help",
+        "tokens": [
+          "thanks",
+          "for",
+          "your",
+          "help"
+        ],
+        "filtered_tokens": [
+          "thanks",
+          "help"
+        ],
+        "stats": {
+          "word_count": 4,
+          "char_count": 20,
+          "unique_words": 4
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "help",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 1,
+        "speaker": "bot",
+        "text": "Let me transfer you to a specialist",
+        "timestamp": "2026-04-23T20:49:31.312540",
+        "cleaned_text": "let me transfer you to a specialist",
+        "tokens": [
+          "let",
+          "me",
+          "transfer",
+          "you",
+          "to",
+          "a",
+          "specialist"
+        ],
+        "filtered_tokens": [
+          "let",
+          "transfer",
+          "specialist"
+        ],
+        "stats": {
+          "word_count": 7,
+          "char_count": 35,
+          "unique_words": 7
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 2,
+        "speaker": "user",
+        "text": "Can you help me return this item?",
+        "timestamp": "2026-04-23T20:49:31.312543",
+        "cleaned_text": "can you help me return this item",
+        "tokens": [
+          "can",
+          "you",
+          "help",
+          "me",
+          "return",
+          "this",
+          "item"
+        ],
+        "filtered_tokens": [
+          "can",
+          "help",
+          "return",
+          "item"
+        ],
+        "stats": {
+          "word_count": 7,
+          "char_count": 33,
+          "unique_words": 7
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "help",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "question",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 3,
+        "speaker": "bot",
+        "text": "Let me check your order status",
+        "timestamp": "2026-04-23T20:49:31.312544",
+        "cleaned_text": "let me check your order status",
+        "tokens": [
+          "let",
+          "me",
+          "check",
+          "your",
+          "order",
+          "status"
+        ],
+        "filtered_tokens": [
+          "let",
+          "check",
+          "order",
+          "status"
+        ],
+        "stats": {
+          "word_count": 6,
+          "char_count": 30,
+          "unique_words": 6
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "statement",
+          "slots": [
+            {
+              "slot_type": "order",
+              "value": "reference"
+            }
+          ]
+        }
+      },
+      {
+        "turn_id": 4,
+        "speaker": "user",
+        "text": "Goodbye",
+        "timestamp": "2026-04-23T20:49:31.312546",
+        "cleaned_text": "goodbye",
+        "tokens": [
+          "goodbye"
+        ],
+        "filtered_tokens": [
+          "goodbye"
+        ],
+        "stats": {
+          "word_count": 1,
+          "char_count": 7,
+          "unique_words": 1
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "farewell",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "farewell",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 5,
+        "speaker": "bot",
+        "text": "I apologize for the inconvenience",
+        "timestamp": "2026-04-23T20:49:31.312547",
+        "cleaned_text": "i apologize for the inconvenience",
+        "tokens": [
+          "i",
+          "apologize",
+          "for",
+          "the",
+          "inconvenience"
+        ],
+        "filtered_tokens": [
+          "apologize",
+          "inconvenience"
+        ],
+        "stats": {
+          "word_count": 5,
+          "char_count": 33,
+          "unique_words": 5
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 6,
+        "speaker": "user",
+        "text": "Hello, can you assist me?",
+        "timestamp": "2026-04-23T20:49:31.312549",
+        "cleaned_text": "hello can you assist me",
+        "tokens": [
+          "hello",
+          "can",
+          "you",
+          "assist",
+          "me"
+        ],
+        "filtered_tokens": [
+          "hello",
+          "can",
+          "assist"
+        ],
+        "stats": {
+          "word_count": 5,
+          "char_count": 25,
+          "unique_words": 5
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "greeting",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "question",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 7,
+        "speaker": "bot",
+        "text": "I apologize for the inconvenience",
+        "timestamp": "2026-04-23T20:49:31.312550",
+        "cleaned_text": "i apologize for the inconvenience",
+        "tokens": [
+          "i",
+          "apologize",
+          "for",
+          "the",
+          "inconvenience"
+        ],
+        "filtered_tokens": [
+          "apologize",
+          "inconvenience"
+        ],
+        "stats": {
+          "word_count": 5,
+          "char_count": 33,
+          "unique_words": 5
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 8,
+        "speaker": "user",
+        "text": "Hi, I need help with my order",
+        "timestamp": "2026-04-23T20:49:31.312551",
+        "cleaned_text": "hi i need help with my order",
+        "tokens": [
+          "hi",
+          "i",
+          "need",
+          "help",
+          "with",
+          "my",
+          "order"
+        ],
+        "filtered_tokens": [
+          "hi",
+          "need",
+          "help",
+          "order"
+        ],
+        "stats": {
+          "word_count": 7,
+          "char_count": 29,
+          "unique_words": 7
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "greeting",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "greeting",
+          "slots": [
+            {
+              "slot_type": "order",
+              "value": "reference"
+            }
+          ]
+        }
+      }
+    ],
+    "metadata": {
+      "created_date": "2026-04-23T20:49:31.312552",
+      "source": "synthetic",
+      "version": "1.0"
+    },
+    "statistics": {
+      "total_turns": 9,
+      "total_words": 47,
+      "unique_words": 18
+    },
+    "annotation_stats": {
+      "total_annotations": 9,
+      "annotator_version": "1.0"
+    }
+  },
+  {
+    "conversation_id": "conv_0034",
+    "domain": "booking",
+    "num_turns": 11,
+    "turns": [
+      {
+        "turn_id": 0,
+        "speaker": "user",
+        "text": "Is breakfast included?",
+        "timestamp": "2026-04-23T20:49:31.312503",
+        "cleaned_text": "is breakfast included",
+        "tokens": [
+          "is",
+          "breakfast",
+          "included"
+        ],
+        "filtered_tokens": [
+          "breakfast",
+          "included"
+        ],
+        "stats": {
+          "word_count": 3,
+          "char_count": 22,
+          "unique_words": 3
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "question",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 1,
+        "speaker": "bot",
+        "text": "Would you like to add anything else?",
+        "timestamp": "2026-04-23T20:49:31.312504",
+        "cleaned_text": "would you like to add anything else",
+        "tokens": [
+          "would",
+          "you",
+          "like",
+          "to",
+          "add",
+          "anything",
+          "else"
+        ],
+        "filtered_tokens": [
+          "would",
+          "like",
+          "add",
+          "anything",
+          "else"
+        ],
+        "stats": {
+          "word_count": 7,
+          "char_count": 36,
+          "unique_words": 7
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "question",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 2,
+        "speaker": "user",
+        "text": "What are your prices?",
+        "timestamp": "2026-04-23T20:49:31.312506",
+        "cleaned_text": "what are your prices",
+        "tokens": [
+          "what",
+          "are",
+          "your",
+          "prices"
+        ],
+        "filtered_tokens": [
+          "what",
+          "prices"
+        ],
+        "stats": {
+          "word_count": 4,
+          "char_count": 21,
+          "unique_words": 4
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "inquiry",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "question",
+          "slots": [
+            {
+              "slot_type": "price",
+              "value": "inquiry"
+            }
+          ]
+        }
+      },
+      {
+        "turn_id": 3,
+        "speaker": "bot",
+        "text": "Thank you for booking with us",
+        "timestamp": "2026-04-23T20:49:31.312507",
+        "cleaned_text": "thank you for booking with us",
+        "tokens": [
+          "thank",
+          "you",
+          "for",
+          "booking",
+          "with",
+          "us"
+        ],
+        "filtered_tokens": [
+          "thank",
+          "booking",
+          "us"
+        ],
+        "stats": {
+          "word_count": 6,
+          "char_count": 29,
+          "unique_words": 6
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "booking",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 4,
+        "speaker": "user",
+        "text": "Goodbye",
+        "timestamp": "2026-04-23T20:49:31.312509",
+        "cleaned_text": "goodbye",
+        "tokens": [
+          "goodbye"
+        ],
+        "filtered_tokens": [
+          "goodbye"
+        ],
+        "stats": {
+          "word_count": 1,
+          "char_count": 7,
+          "unique_words": 1
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "farewell",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "farewell",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 5,
+        "speaker": "bot",
+        "text": "What dates are you looking for?",
+        "timestamp": "2026-04-23T20:49:31.312510",
+        "cleaned_text": "what dates are you looking for",
+        "tokens": [
+          "what",
+          "dates",
+          "are",
+          "you",
+          "looking",
+          "for"
+        ],
+        "filtered_tokens": [
+          "what",
+          "dates",
+          "looking"
+        ],
+        "stats": {
+          "word_count": 6,
+          "char_count": 31,
+          "unique_words": 6
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "inquiry",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "question",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 6,
+        "speaker": "user",
+        "text": "Is breakfast included?",
+        "timestamp": "2026-04-23T20:49:31.312511",
+        "cleaned_text": "is breakfast included",
+        "tokens": [
+          "is",
+          "breakfast",
+          "included"
+        ],
+        "filtered_tokens": [
+          "breakfast",
+          "included"
+        ],
+        "stats": {
+          "word_count": 3,
+          "char_count": 22,
+          "unique_words": 3
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "question",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 7,
+        "speaker": "bot",
+        "text": "Let me check availability",
+        "timestamp": "2026-04-23T20:49:31.312513",
+        "cleaned_text": "let me check availability",
+        "tokens": [
+          "let",
+          "me",
+          "check",
+          "availability"
+        ],
+        "filtered_tokens": [
+          "let",
+          "check",
+          "availability"
+        ],
+        "stats": {
+          "word_count": 4,
+          "char_count": 25,
+          "unique_words": 4
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 8,
+        "speaker": "user",
+        "text": "Is breakfast included?",
+        "timestamp": "2026-04-23T20:49:31.312514",
+        "cleaned_text": "is breakfast included",
+        "tokens": [
+          "is",
+          "breakfast",
+          "included"
+        ],
+        "filtered_tokens": [
+          "breakfast",
+          "included"
+        ],
+        "stats": {
+          "word_count": 3,
+          "char_count": 22,
+          "unique_words": 3
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "question",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 9,
+        "speaker": "bot",
+        "text": "Thank you for booking with us",
+        "timestamp": "2026-04-23T20:49:31.312515",
+        "cleaned_text": "thank you for booking with us",
+        "tokens": [
+          "thank",
+          "you",
+          "for",
+          "booking",
+          "with",
+          "us"
+        ],
+        "filtered_tokens": [
+          "thank",
+          "booking",
+          "us"
+        ],
+        "stats": {
+          "word_count": 6,
+          "char_count": 29,
+          "unique_words": 6
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "booking",
+            "confidence": 0.8,
+            "method": "pattern_matching"
+          },
+          "dialogue_act": "statement",
+          "slots": []
+        }
+      },
+      {
+        "turn_id": 10,
+        "speaker": "user",
+        "text": "Do you have availability?",
+        "timestamp": "2026-04-23T20:49:31.312517",
+        "cleaned_text": "do you have availability",
+        "tokens": [
+          "do",
+          "you",
+          "have",
+          "availability"
+        ],
+        "filtered_tokens": [
+          "do",
+          "have",
+          "availability"
+        ],
+        "stats": {
+          "word_count": 4,
+          "char_count": 25,
+          "unique_words": 4
+        },
+        "annotations": {
+          "intent": {
+            "primary_intent": "other",
+            "confidence": 0.3,
+            "method": "default"
+          },
+          "dialogue_act": "question",
+          "slots": []
+        }
+      }
+    ],
+    "metadata": {
+      "created_date": "2026-04-23T20:49:31.312518",
+      "source": "synthetic",
+      "version": "1.0"
+    },
+    "statistics": {
+      "total_turns": 11,
+      "total_words": 47,
+      "unique_words": 20
+    },
+    "annotation_stats": {
+      "total_annotations": 11,
+      "annotator_version": "1.0"
+    }
+  }
+]

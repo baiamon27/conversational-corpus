@@ -1,0 +1,407 @@
+text,speaker,dialogue_act
+Tell me a joke,user,statement
+Here's a fun fact for you,bot,statement
+Tell me a joke,user,statement
+Have a wonderful day,bot,statement
+Tell me a joke,user,statement
+Have a wonderful day,bot,statement
+Tell me a joke,user,statement
+Is there anything you'd like to know?,bot,question
+"Hello, how are you?",user,question
+I'm happy to chat with you,bot,statement
+Thanks for your help,user,statement
+My product is not working properly,user,statement
+I apologize for the inconvenience,bot,statement
+Goodbye,user,farewell
+Let me transfer you to a specialist,bot,statement
+Thanks for your help,user,statement
+Hi there,user,greeting
+Is there anything you'd like to know?,bot,question
+Bye bye,user,farewell
+Have a wonderful day,bot,statement
+My product is not working properly,user,statement
+I'd be happy to help with that,bot,statement
+I have a question about my bill,user,statement
+Thank you for contacting support,bot,statement
+I have a question about my bill,user,statement
+I'd be happy to help with that,bot,statement
+"Hello, can you assist me?",user,question
+Thank you for contacting support,bot,statement
+Can you help me return this item?,user,question
+Is there anything else I can help with?,bot,question
+That's interesting,user,statement
+Have a wonderful day,bot,statement
+Tell me a joke,user,statement
+Is there anything you'd like to know?,bot,question
+Tell me a joke,user,statement
+"I'm doing great, thanks!",bot,statement
+Thanks for your help,user,statement
+Here's a fun fact for you,bot,statement
+Bye bye,user,farewell
+I'm happy to chat with you,bot,statement
+See you later,user,farewell
+Here's a fun fact for you,bot,statement
+Goodbye,user,farewell
+Have a great day!,bot,statement
+When will my package arrive?,user,question
+Have a great day!,bot,statement
+When will my package arrive?,user,question
+Is there anything else I can help with?,bot,question
+Goodbye,user,farewell
+Have a great day!,bot,statement
+Can you help me return this item?,user,question
+Let me check your order status,bot,statement
+My product is not working properly,user,statement
+Tell me a joke,user,statement
+I'm happy to chat with you,bot,statement
+Tell me a joke,user,statement
+Is there anything you'd like to know?,bot,question
+What's the weather like?,user,question
+That's a great question,bot,statement
+Bye bye,user,farewell
+I'm happy to chat with you,bot,statement
+Hi there,user,greeting
+Is there anything you'd like to know?,bot,question
+Thanks for your help,user,statement
+Here's a fun fact for you,bot,statement
+What are your prices?,user,question
+Let me check availability,bot,statement
+I want to book a room,user,statement
+Your booking is confirmed,bot,statement
+"Hello, I'd like to make a reservation",user,greeting
+Let me show you our options,bot,statement
+Thanks for your help,user,statement
+I apologize for the inconvenience,bot,statement
+"Hi, I need help with my order",user,greeting
+Is there anything else I can help with?,bot,question
+Can I cancel my booking?,user,question
+Thank you for booking with us,bot,statement
+Can I cancel my booking?,user,question
+Thank you for booking with us,bot,statement
+Thank you for your help,user,statement
+Your booking is confirmed,bot,statement
+Do you have availability?,user,question
+Would you like to add anything else?,bot,question
+My product is not working properly,user,statement
+Thank you for contacting support,bot,statement
+Goodbye,user,farewell
+I'd be happy to help with that,bot,statement
+"Hello, can you assist me?",user,question
+I apologize for the inconvenience,bot,statement
+"Hello, can you assist me?",user,question
+Let me check your order status,bot,statement
+Goodbye,user,farewell
+I apologize for the inconvenience,bot,statement
+Goodbye,user,farewell
+Let me transfer you to a specialist,bot,statement
+"Hello, can you assist me?",user,question
+Thank you for contacting support,bot,statement
+I have a question about my bill,user,statement
+Thank you for contacting support,bot,statement
+"Hello, can you assist me?",user,question
+Let me transfer you to a specialist,bot,statement
+Goodbye,user,farewell
+Let me check your order status,bot,statement
+When will my package arrive?,user,question
+Let me transfer you to a specialist,bot,statement
+My product is not working properly,user,statement
+Have a great day!,bot,statement
+Thanks for your help,user,statement
+I apologize for the inconvenience,bot,statement
+My product is not working properly,user,statement
+Is there anything else I can help with?,bot,question
+"Hi, I need help with my order",user,greeting
+Thank you for contacting support,bot,statement
+"Hi, I need help with my order",user,greeting
+I want to book a room,user,statement
+What dates are you looking for?,bot,question
+Can I cancel my booking?,user,question
+Would you like to add anything else?,bot,question
+Thanks for your help,user,statement
+Let me check your order status,bot,statement
+Can you help me return this item?,user,question
+Let me check your order status,bot,statement
+When will my package arrive?,user,question
+Thanks for your help,user,statement
+Thanks for talking with me,bot,statement
+Tell me a joke,user,statement
+Thanks for talking with me,bot,statement
+Can you help me return this item?,user,question
+Let me check your order status,bot,statement
+Can you help me return this item?,user,question
+Let me check your order status,bot,statement
+I have a question about my bill,user,statement
+Let me transfer you to a specialist,bot,statement
+"Hello, I'd like to make a reservation",user,greeting
+Thank you for booking with us,bot,statement
+Can I cancel my booking?,user,question
+I can help you book that,bot,statement
+"Hi, I need help with my order",user,greeting
+I'd be happy to help with that,bot,statement
+"Hello, can you assist me?",user,question
+Is there anything else I can help with?,bot,question
+"Hi, I need help with my order",user,greeting
+I'd be happy to help with that,bot,statement
+Goodbye,user,farewell
+Let me transfer you to a specialist,bot,statement
+Can you help me return this item?,user,question
+Let me check your order status,bot,statement
+"Hi, I need help with my order",user,greeting
+I apologize for the inconvenience,bot,statement
+"Hi, I need help with my order",user,greeting
+Let me transfer you to a specialist,bot,statement
+"Hi, I need help with my order",user,greeting
+I apologize for the inconvenience,bot,statement
+My product is not working properly,user,statement
+Is there anything else I can help with?,bot,question
+"Hi, I need help with my order",user,greeting
+Is there anything else I can help with?,bot,question
+My product is not working properly,user,statement
+Can I cancel my booking?,user,question
+Thank you for booking with us,bot,statement
+Is breakfast included?,user,question
+I can help you book that,bot,statement
+I want to book a room,user,statement
+Let me check availability,bot,statement
+Thank you for your help,user,statement
+Would you like to add anything else?,bot,question
+What are your prices?,user,question
+Thank you for booking with us,bot,statement
+I want to book a room,user,statement
+I can help you book that,bot,statement
+See you later,user,farewell
+Have a wonderful day,bot,statement
+What's the weather like?,user,question
+Here's a fun fact for you,bot,statement
+Hi there,user,greeting
+Here's a fun fact for you,bot,statement
+What's the weather like?,user,question
+That's a great question,bot,statement
+"Hello, how are you?",user,question
+Is there anything you'd like to know?,bot,question
+"Hello, how are you?",user,question
+Thanks for talking with me,bot,statement
+Is breakfast included?,user,question
+What dates are you looking for?,bot,question
+Goodbye,user,farewell
+Would you like to add anything else?,bot,question
+Can I cancel my booking?,user,question
+What's the weather like?,user,question
+Have a wonderful day,bot,statement
+Tell me a joke,user,statement
+That's a great question,bot,statement
+Hi there,user,greeting
+I'm happy to chat with you,bot,statement
+Bye bye,user,farewell
+That's a great question,bot,statement
+Bye bye,user,farewell
+Have a wonderful day,bot,statement
+Hi there,user,greeting
+I'm happy to chat with you,bot,statement
+See you later,user,farewell
+Thanks for talking with me,bot,statement
+What's the weather like?,user,question
+"I'm doing great, thanks!",bot,statement
+That's interesting,user,statement
+Is breakfast included?,user,question
+Your booking is confirmed,bot,statement
+Can I cancel my booking?,user,question
+Would you like to add anything else?,bot,question
+Thank you for your help,user,statement
+What dates are you looking for?,bot,question
+"Hello, I'd like to make a reservation",user,greeting
+I have a question about my bill,user,statement
+I'd be happy to help with that,bot,statement
+"Hello, can you assist me?",user,question
+Have a great day!,bot,statement
+"Hello, can you assist me?",user,question
+I apologize for the inconvenience,bot,statement
+"Hello, can you assist me?",user,question
+Let me transfer you to a specialist,bot,statement
+I have a question about my bill,user,statement
+Let me check your order status,bot,statement
+"Hello, can you assist me?",user,question
+Have a great day!,bot,statement
+When will my package arrive?,user,question
+Let me transfer you to a specialist,bot,statement
+"Hi, I need help with my order",user,greeting
+Is there anything else I can help with?,bot,question
+My product is not working properly,user,statement
+Do you have availability?,user,question
+Let me show you our options,bot,statement
+"Hello, I'd like to make a reservation",user,greeting
+Your booking is confirmed,bot,statement
+What are your prices?,user,question
+Thank you for booking with us,bot,statement
+Do you have availability?,user,question
+When will my package arrive?,user,question
+I apologize for the inconvenience,bot,statement
+Goodbye,user,farewell
+Let me transfer you to a specialist,bot,statement
+When will my package arrive?,user,question
+Let me check your order status,bot,statement
+Goodbye,user,farewell
+I apologize for the inconvenience,bot,statement
+When will my package arrive?,user,question
+See you later,user,farewell
+Have a wonderful day,bot,statement
+See you later,user,farewell
+I'm happy to chat with you,bot,statement
+"Hello, how are you?",user,question
+That's a great question,bot,statement
+Hi there,user,greeting
+That's a great question,bot,statement
+Tell me a joke,user,statement
+Thanks for talking with me,bot,statement
+My product is not working properly,user,statement
+Let me transfer you to a specialist,bot,statement
+"Hi, I need help with my order",user,greeting
+Is there anything else I can help with?,bot,question
+"Hi, I need help with my order",user,greeting
+"Hello, can you assist me?",user,question
+Is there anything else I can help with?,bot,question
+I have a question about my bill,user,statement
+I apologize for the inconvenience,bot,statement
+Can you help me return this item?,user,question
+Have a great day!,bot,statement
+I have a question about my bill,user,statement
+Let me transfer you to a specialist,bot,statement
+I have a question about my bill,user,statement
+Let me transfer you to a specialist,bot,statement
+"Hello, can you assist me?",user,question
+Let me transfer you to a specialist,bot,statement
+Goodbye,user,farewell
+What dates are you looking for?,bot,question
+Do you have availability?,user,question
+Would you like to add anything else?,bot,question
+Is breakfast included?,user,question
+Let me show you our options,bot,statement
+Is breakfast included?,user,question
+Let me check availability,bot,statement
+Do you have availability?,user,question
+Thank you for booking with us,bot,statement
+I want to book a room,user,statement
+Let me check availability,bot,statement
+Goodbye,user,farewell
+I'd be happy to help with that,bot,statement
+"Hi, I need help with my order",user,greeting
+I'd be happy to help with that,bot,statement
+Thanks for your help,user,statement
+Let me transfer you to a specialist,bot,statement
+"Hi, I need help with my order",user,greeting
+"Hello, how are you?",user,question
+Here's a fun fact for you,bot,statement
+Bye bye,user,farewell
+Have a wonderful day,bot,statement
+Thanks for your help,user,statement
+Thanks for talking with me,bot,statement
+"Hello, how are you?",user,question
+Have a wonderful day,bot,statement
+That's interesting,user,statement
+"I'm doing great, thanks!",bot,statement
+What are your prices?,user,question
+What dates are you looking for?,bot,question
+What are your prices?,user,question
+I can help you book that,bot,statement
+What are your prices?,user,question
+Let me show you our options,bot,statement
+What are your prices?,user,question
+Let me check availability,bot,statement
+Thank you for your help,user,statement
+What dates are you looking for?,bot,question
+I want to book a room,user,statement
+Let me check availability,bot,statement
+Goodbye,user,farewell
+Let me transfer you to a specialist,bot,statement
+I have a question about my bill,user,statement
+Is there anything else I can help with?,bot,question
+"Hello, can you assist me?",user,question
+Let me check your order status,bot,statement
+"Hi, I need help with my order",user,greeting
+Let me check your order status,bot,statement
+Do you have availability?,user,question
+I can help you book that,bot,statement
+Is breakfast included?,user,question
+Thank you for booking with us,bot,statement
+I want to book a room,user,statement
+Thank you for booking with us,bot,statement
+Thank you for your help,user,statement
+Your booking is confirmed,bot,statement
+Thank you for your help,user,statement
+Goodbye,user,farewell
+I apologize for the inconvenience,bot,statement
+When will my package arrive?,user,question
+Let me transfer you to a specialist,bot,statement
+I have a question about my bill,user,statement
+Let me transfer you to a specialist,bot,statement
+"Hello, can you assist me?",user,question
+Is there anything else I can help with?,bot,question
+My product is not working properly,user,statement
+Goodbye,user,farewell
+Let me check your order status,bot,statement
+My product is not working properly,user,statement
+I'd be happy to help with that,bot,statement
+Thanks for your help,user,statement
+Thank you for contacting support,bot,statement
+When will my package arrive?,user,question
+Is there anything else I can help with?,bot,question
+Thanks for your help,user,statement
+I apologize for the inconvenience,bot,statement
+Goodbye,user,farewell
+"Hello, I'd like to make a reservation",user,greeting
+Your booking is confirmed,bot,statement
+Is breakfast included?,user,question
+Let me check availability,bot,statement
+"Hello, I'd like to make a reservation",user,greeting
+Your booking is confirmed,bot,statement
+Thank you for your help,user,statement
+Would you like to add anything else?,bot,question
+Goodbye,user,farewell
+Thank you for contacting support,bot,statement
+"Hello, can you assist me?",user,question
+Have a great day!,bot,statement
+I have a question about my bill,user,statement
+Thank you for contacting support,bot,statement
+When will my package arrive?,user,question
+Let me check your order status,bot,statement
+I have a question about my bill,user,statement
+Have a great day!,bot,statement
+I have a question about my bill,user,statement
+I'd be happy to help with that,bot,statement
+Goodbye,user,farewell
+What dates are you looking for?,bot,question
+Do you have availability?,user,question
+Would you like to add anything else?,bot,question
+Do you have availability?,user,question
+Let me check availability,bot,statement
+Is breakfast included?,user,question
+Would you like to add anything else?,bot,question
+Do you have availability?,user,question
+What dates are you looking for?,bot,question
+I want to book a room,user,statement
+Let me show you our options,bot,statement
+Do you have availability?,user,question
+Your booking is confirmed,bot,statement
+Thank you for your help,user,statement
+Your booking is confirmed,bot,statement
+Goodbye,user,farewell
+Can you help me return this item?,user,question
+Is there anything else I can help with?,bot,question
+Can you help me return this item?,user,question
+I'd be happy to help with that,bot,statement
+"Hello, can you assist me?",user,question
+Have a great day!,bot,statement
+Can you help me return this item?,user,question
+Let me transfer you to a specialist,bot,statement
+Thanks for your help,user,statement
+"Hello, I'd like to make a reservation",user,greeting
+What dates are you looking for?,bot,question
+Can I cancel my booking?,user,question
+Thank you for booking with us,bot,statement
+"Hello, I'd like to make a reservation",user,greeting
+Thank you for booking with us,bot,statement
+I want to book a room,user,statement
+Let me check availability,bot,statement
+Can I cancel my booking?,user,question
+Thank you for booking with us,bot,statement
+Can I cancel my booking?,user,question

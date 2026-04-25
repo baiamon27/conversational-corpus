@@ -1,0 +1,62 @@
+conversation_id,domain,turn_id,speaker,text,intent,dialogue_act
+conv_0040,general_chat,0,user,Bye bye,farewell,farewell
+conv_0040,general_chat,1,bot,That's a great question,inquiry,statement
+conv_0040,general_chat,2,user,Tell me a joke,inquiry,statement
+conv_0040,general_chat,3,bot,Is there anything you'd like to know?,other,question
+conv_0040,general_chat,4,user,Hello; how are you?,greeting,question
+conv_0040,general_chat,5,bot,Have a wonderful day,other,statement
+conv_0040,general_chat,6,user,What's the weather like?,inquiry,question
+conv_0022,booking,0,user,Hello; I'd like to make a reservation,greeting,greeting
+conv_0022,booking,1,bot,Let me check availability,other,statement
+conv_0022,booking,2,user,What are your prices?,inquiry,question
+conv_0022,booking,3,bot,Would you like to add anything else?,other,question
+conv_0022,booking,4,user,Thank you for your help,help,statement
+conv_0022,booking,5,bot,I can help you book that,help,statement
+conv_0022,booking,6,user,Hello; I'd like to make a reservation,greeting,greeting
+conv_0022,booking,7,bot,Let me show you our options,other,statement
+conv_0022,booking,8,user,Thank you for your help,help,statement
+conv_0022,booking,9,bot,Would you like to add anything else?,other,question
+conv_0023,general_chat,0,user,Hello; how are you?,greeting,question
+conv_0023,general_chat,1,bot,I'm doing great; thanks!,thanks,statement
+conv_0023,general_chat,2,user,Thanks for your help,help,statement
+conv_0023,general_chat,3,bot,That's a great question,inquiry,statement
+conv_0023,general_chat,4,user,Thanks for your help,help,statement
+conv_0023,general_chat,5,bot,Have a wonderful day,other,statement
+conv_0023,general_chat,6,user,Hello; how are you?,greeting,question
+conv_0023,general_chat,7,bot,Is there anything you'd like to know?,other,question
+conv_0023,general_chat,8,user,Hi there,greeting,greeting
+conv_0023,general_chat,9,bot,That's a great question,inquiry,statement
+conv_0018,booking,0,user,Can I cancel my booking?,booking,question
+conv_0018,booking,1,bot,Let me show you our options,other,statement
+conv_0018,booking,2,user,Thank you for your help,help,statement
+conv_0018,booking,3,bot,What dates are you looking for?,inquiry,question
+conv_0018,booking,4,user,I want to book a room,booking,statement
+conv_0018,booking,5,bot,I can help you book that,help,statement
+conv_0018,booking,6,user,What are your prices?,inquiry,question
+conv_0018,booking,7,bot,Let me show you our options,other,statement
+conv_0018,booking,8,user,Goodbye,farewell,farewell
+conv_0018,booking,9,bot,Let me check availability,other,statement
+conv_0018,booking,10,user,Do you have availability?,other,question
+conv_0027,general_chat,0,user,Hi there,greeting,greeting
+conv_0027,general_chat,1,bot,Is there anything you'd like to know?,other,question
+conv_0027,general_chat,2,user,Bye bye,farewell,farewell
+conv_0027,general_chat,3,bot,I'm happy to chat with you,other,statement
+conv_0027,general_chat,4,user,Tell me a joke,inquiry,statement
+conv_0027,general_chat,5,bot,That's a great question,inquiry,statement
+conv_0027,general_chat,6,user,Thanks for your help,help,statement
+conv_0027,general_chat,7,bot,Have a wonderful day,other,statement
+conv_0027,general_chat,8,user,Tell me a joke,inquiry,statement
+conv_0027,general_chat,9,bot,That's a great question,inquiry,statement
+conv_0030,customer_support,0,user,Hi; I need help with my order,greeting,greeting
+conv_0030,customer_support,1,bot,Is there anything else I can help with?,help,question
+conv_0030,customer_support,2,user,When will my package arrive?,inquiry,question
+conv_0030,customer_support,3,bot,Let me transfer you to a specialist,other,statement
+conv_0030,customer_support,4,user,Hello; can you assist me?,greeting,question
+conv_0037,customer_support,0,user,Thanks for your help,help,statement
+conv_0037,customer_support,1,bot,Let me transfer you to a specialist,other,statement
+conv_0037,customer_support,2,user,Thanks for your help,help,statement
+conv_0037,customer_support,3,bot,Let me check your order status,other,statement
+conv_0037,customer_support,4,user,I have a question about my bill,inquiry,statement
+conv_0037,customer_support,5,bot,Thank you for contacting support,help,statement
+conv_0037,customer_support,6,user,Goodbye,farewell,farewell
+conv_0037,customer_support,7,bot,Is there anything else I can help with?,help,question
